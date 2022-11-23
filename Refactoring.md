@@ -9,3 +9,9 @@ You've been asked to refactor the function `deterministicPartitionKey` in [`dpk.
 You will be graded on the exhaustiveness and quality of your unit tests, the depth of your refactor, and the level of insight into your thought process provided by the written explanation.
 
 ## Your Explanation Here
+
+- refactoring: with the help bigO notation principe specifically calculating space complexity of `deterministicPartitionKey` function
+  i did my refactoring my dividing the code with reusability by creating helper functions where possible to reduce the amount of code
+  and amount of declarations from performance view
+
+- unit tests: i tried to cover max possible behavior of the function with adding new unit test by verifying custom key also the case when partition key exceed the character limit
